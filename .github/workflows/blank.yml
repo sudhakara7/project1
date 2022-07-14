@@ -34,3 +34,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: Java Version 
+        run: jave --version 
+      - name: python version
+        run: python --version
+      - name: current date
+        run: date 
